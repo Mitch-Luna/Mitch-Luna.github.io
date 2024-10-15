@@ -9,11 +9,25 @@ body {
     flex-wrap: wrap;
     background-color: antiquewhite;
 }
+.texto {
+    justify-content: center;
+    
+}
 .caja1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(110, 225, 78);
+}
+.caja2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.caja3 {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .galeria img {
@@ -26,3 +40,17 @@ body {
     width: 370px;
     height: 370px;
 }
+.imagenes {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto suave */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+.imagenes:hover {
+    transform: scale(1.1) translateY(-5px); /* Aumenta el tamaño y mueve hacia arriba */
+    box-shadow: 0 4px 15px rgba(4, 198, 252, 0.3); /* Sombra para dar efecto de profundidad */
+}
+
+.imagenes:active {
+    transform: scale(0.95); /* Al hacer clic, reduce ligeramente el tamaño */
+}
+
