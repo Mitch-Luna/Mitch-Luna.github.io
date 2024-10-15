@@ -4,10 +4,16 @@ body {
 }
 
 .galeria {
+    background-image: url('imagenes/fondo.jpg'); /* Cambia esto a la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el div */
+    background-position: center; /* Centra la imagen */
+    width: 100%; /* Ancho completo de la ventana */
+    height: 100%; /* Altura del div */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para el texto */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: antiquewhite;
+    margin-bottom: 5%;
 }
 .texto {
     justify-content: center;
