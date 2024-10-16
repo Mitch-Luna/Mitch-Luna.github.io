@@ -15,7 +15,6 @@ function actualizarContador() {
     // Actualiza el contenido en el HTML
     contadorElement.textContent = `${dias} Días, ${horas} Horas, ${minutos} Minutos y ${segundos} Segundos transcurridos desde el 18 de septiembre 2024`;
 }
-
 // Actualiza el contador cada segundo
 setInterval(actualizarContador, 1000); 
 // Llama a la función al cargar la página
