@@ -13,7 +13,6 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 5%;
 }
 .texto {
     justify-content: center;
@@ -23,6 +22,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 .caja2 {
     display: flex;
